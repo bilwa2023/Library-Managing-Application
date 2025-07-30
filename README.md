@@ -6,9 +6,9 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 
 📌 Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
+- [🚀 Features](#features)
+- [🧰 Tech Stack](#tech-stack)
+- [📁 Project Structure](#project-structure)
 - [Database Schema](#database-schema)
 - [Setup Instructions](#setup-instructions)
 - [Screenshots](#screenshots)
@@ -59,4 +59,3 @@ LibraryManagementSystem/
 └── README.md
 
 
-Change this to clickable links
