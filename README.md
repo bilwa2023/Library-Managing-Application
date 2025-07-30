@@ -82,8 +82,8 @@ Follow these steps to set up and run the project locally:
 
 1. 🔃 Clone the Repository
 
-git clone https://github.com/bilwa2023/Library-Managing-Application.git
-cd Library-Managing-Application
+2. git clone https://github.com/bilwa2023/Library-Managing-Application.git
+- cd Library-Managing-Application
 
 3. 💽 Import into Eclipse (or any Java IDE)
 Open Eclipse IDE.
@@ -91,7 +91,7 @@ Go to File → Import → Existing Projects into Workspace.
 Browse to the cloned project folder and Finish.
 
 4. ⚙️ Configure Apache Tomcat
-Download and set up Apache Tomcat (version 8 or above recommended).
+- Download and set up Apache Tomcat (version 8 or above recommended).
 
 In Eclipse:
 - Go to Servers tab → New → Server → choose Tomcat.
