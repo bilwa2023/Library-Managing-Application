@@ -1,47 +1,44 @@
+ 📚 Library Management System
+
+A full-featured Library Management System built using **Java**, **JSP/Servlets**, and **MySQL** to streamline book inventory, borrowing, and member management.
+
+---
+
 📌 Table of Contents
-🚀 Features
 
-🧰 Tech Stack
-
-📁 Project Structure
-
-🗄️ Database Schema
-
-🛠️ Setup Instructions
-
-📸 Screenshots
-
-🤝 Contributing
-
-📄 License
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Database Schema](#database-schema)
+- [Setup Instructions](#setup-instructions)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- 
+---
 
 🚀 Features
-📘 Add, update, and delete books
 
-👥 Manage library members
+- 📘 Add, update, and delete books
+- 👥 Manage library members
+- 📖 Issue and return books
+- 🔎 Search functionality for books and members
+- 📊 View issued books and history
+- 🛡️ Login authentication for admin/librarian
 
-📖 Issue and return books
+---
+ 🧰 Tech Stack
 
-🔎 Search functionality for books and members
+- **Backend:** Java, Servlet, JSP
+- **Frontend:** HTML, CSS, JavaScript (basic)
+- **Database:** MySQL
+- **Tools:** Apache Tomcat, JDBC, Git
 
-📊 View issued books and history
+---
 
-🛡️ Login authentication for admin/librarian
+ 📁 Project Structure
 
-🧰 Tech Stack
-Backend: Java, Servlet, JSP
-
-Frontend: HTML, CSS, JavaScript (basic)
-
-Database: MySQL
-
-Tools: Apache Tomcat, JDBC, Git
-
-📁 Project Structure
-<details> <summary>Click to expand</summary>
-plaintext
-Copy
-Edit
+```plaintext
 LibraryManagementSystem/
 │
 ├── src/
@@ -60,4 +57,6 @@ LibraryManagementSystem/
 ├── .classpath
 ├── .project
 └── README.md
-</details>
+
+
+Change this to clickable links
