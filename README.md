@@ -1,4 +1,4 @@
-<img width="284" height="203" alt="image" src="https://github.com/user-attachments/assets/0e842af7-f519-4c77-a946-3c030ae5a20b" /># 📚 Library Management System
+# 📚 Library Management System
 
 A full-featured Library Management System built using **Java**, **JSP/Servlets**, and **MySQL** to streamline book inventory, borrowing, and member management.
 
