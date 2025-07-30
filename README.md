@@ -6,9 +6,9 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 
 📌 Table of Contents
 
-- [🚀 Features](#features)
-- [🧰 Tech Stack](#tech-stack)
-- [📁 Project Structure](#project-structure)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
 - [Database Schema](#database-schema)
 - [Setup Instructions](#setup-instructions)
 - [Screenshots](#screenshots)
@@ -17,7 +17,7 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 - 
 ---
 
-🚀 Features
+Features
 
 - 📘 Add, update, and delete books
 - 👥 Manage library members
@@ -27,7 +27,7 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 - 🛡️ Login authentication for admin/librarian
 
 ---
- 🧰 Tech Stack
+ Tech Stack
 
 - **Backend:** Java, Servlet, JSP
 - **Frontend:** HTML, CSS, JavaScript (basic)
@@ -36,7 +36,7 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 
 ---
 
- 📁 Project Structure
+ Project Structure
 
 ```plaintext
 LibraryManagementSystem/
