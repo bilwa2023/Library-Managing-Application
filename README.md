@@ -123,4 +123,4 @@ http://localhost:8080/LibraryManagementSystem/
 
 ## Screenshots
 
-
+- ![Book Inventory](pictures/Book-Inventory.png)
