@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Book - Library</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background: #f3efe0; /* warm parchment background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    fieldset {
+        border: 2px solid #8b5e3c;
+        border-radius: 10px;
+        padding: 30px 40px;
+        background-color: #fff9e6; /* cream paper feel */
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        width: 500px;
+    }
+
+    legend {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #4b2e1a;
+        padding: 0 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 10px 5px;
+    }
+
+    label {
+        font-weight: bold;
+        color: #3e2d20;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: 'Georgia', serif;
+        background-color: #fff;
+    }
+
+    button {
+        background-color: #6b4226;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #4b2e1a;
+    }
+
+    tr:last-child td {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <fieldset>
+        <legend>Add Book</legend>
+        <form action="addbook" method="post">
+            <table>
+                <tr> 
+                    <td><label>Book Name:</label></td>
+                    <td><input type="text" value="Wings of Fire" name="name" required></td>
+                </tr>
+                <tr> 
+                    <td><label>Author:</label></td>
+                    <td><input type="text" value="APJ Abdul Kalam" name="author" required></td>
+                </tr>
+                <tr> 
+                    <td><label>Edition:</label></td>
+                    <td><input type="number" value="22" name="edition" required></td>
+                </tr>
+                <tr> 
+                    <td><label>Publication:</label></td>
+                    <td><input type="text" value="Penguin" name="publication" required></td>
+                </tr>
+                <tr> 
+                    <td><label>Category:</label></td>
+                    <td>
+                        <select name="category">
+                            <option value="Self-help">Self-help</option>
+                            <option value="Fictional">Fictional</option>
+                            <option value="Comics">Comics</option>
+                            <option value="Educational">Educational</option>
+                            <option value="Short Stories">Short Stories</option>
+                            <option value="Novel">Novel</option>
+                            <option value="History">History</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr> 
+                    <td><label>Pages:</label></td>
+                    <td><input type="number" value="125" name="pages" required></td>
+                </tr>
+                <tr> 
+                    <td><label>Price:</label></td>
+                    <td><input type="number" value="220" name="price" required></td>
+                </tr>
+                <tr> 
+                    <td><label>Units:</label></td>
+                    <td><input type="number" value="1" name="units" required></td>
+                </tr>
+                <tr> 
+                    <td colspan="2">
+                        <button type="submit">Add Book</button>
+                    </td>
+                </tr>        
+            </table>      
+        </form>
+    </fieldset>
+</body>
+</html>
