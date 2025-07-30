@@ -1,4 +1,4 @@
-# 📚 Library Management System
+<img width="284" height="203" alt="image" src="https://github.com/user-attachments/assets/0e842af7-f519-4c77-a946-3c030ae5a20b" /># 📚 Library Management System
 
 A full-featured Library Management System built using **Java**, **JSP/Servlets**, and **MySQL** to streamline book inventory, borrowing, and member management.
 
@@ -10,6 +10,7 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Database Schema](#database-schema)
+- ![Database Schema](pictures/schema.png)
 - [Setup Instructions](#setup-instructions)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -58,3 +59,18 @@ LibraryManagementSystem/
 ├── .classpath
 ├── .project
 └── README.md
+```
+## Database Schema
+
+📂 Database Schema
+The application uses a MySQL database named librarymanagement which contains the following main tables:
+
+admin – Stores administrator login credentials.
+
+books – Contains information about all the books in the library.
+
+readers – Stores data about library members.
+
+issuebook – Tracks which books are issued to which readers, along with issue and return dates.
+
+issuerequest – Logs requests made by readers to borrow books.
