@@ -125,3 +125,8 @@ http://localhost:8080/LibraryManagementSystem/
 
 - ![Book Inventory](pictures/book_inventory.png)
 - ![Issue Requests](pictures/issue_request_to_librrarian.png)
+- ![Issued Book](pictures/issued_book.png)
+- ![Librarian Home](pictures/librarian_home.png)
+- ![Add Books](pictures/add_books.png)
+- ![Reader History](pictures/reader_history.png)
+- ![Reader Profile](pictures/reader_profile.png)
