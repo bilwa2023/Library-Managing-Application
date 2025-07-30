@@ -1,10 +1,10 @@
- 📚 Library Management System
+# 📚 Library Management System
 
 A full-featured Library Management System built using **Java**, **JSP/Servlets**, and **MySQL** to streamline book inventory, borrowing, and member management.
 
 ---
 
-📌 Table of Contents
+## 📌 Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -14,10 +14,10 @@ A full-featured Library Management System built using **Java**, **JSP/Servlets**
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
-- 
+
 ---
 
-Features
+## Features
 
 - 📘 Add, update, and delete books
 - 👥 Manage library members
@@ -27,7 +27,8 @@ Features
 - 🛡️ Login authentication for admin/librarian
 
 ---
- Tech Stack
+
+## Tech Stack
 
 - **Backend:** Java, Servlet, JSP
 - **Frontend:** HTML, CSS, JavaScript (basic)
@@ -36,7 +37,7 @@ Features
 
 ---
 
- Project Structure
+## Project Structure
 
 ```plaintext
 LibraryManagementSystem/
@@ -57,5 +58,3 @@ LibraryManagementSystem/
 ├── .classpath
 ├── .project
 └── README.md
-
-
